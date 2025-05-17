@@ -54,6 +54,7 @@ Make sure you have the following installed:
 - Node.js  
 - MetaMask  
 - Hardhat
+- Chai
 
 ### 2️⃣ Clone the Repository
 
@@ -73,8 +74,6 @@ Used dependencies:
 
 npx hardhat compile
 npx hardhat run scripts/deploy.js --network holesky
-
-Optional: use scripts/seed.js to mint tokens and simulate activity.
 
 
 🔗 Contract Addresses
@@ -96,10 +95,10 @@ npm run dev
 
 Connect MetaMask to Holesky and interact with the vault:
 
-➕ Deposit tokens
-➖ Withdraw your shares
-🔄 Trigger strategy rebalancing
-📊 View current APYs and vault stats
+- ➕ Deposit tokens
+- ➖ Withdraw your shares
+- 🔄 Trigger strategy rebalancing
+- 📊 View current APYs and vault stats
 
 🖼️ Example Interface
 
@@ -117,13 +116,16 @@ Connect MetaMask to Holesky and interact with the vault:
 
 
 🤝 Contribution
+
 This is a personal project built for skill demonstration and portfolio purposes.
 Feel free to fork, explore, or reach out for collaboration.
 
 ⚖️ License
+
 MIT License. Free to use, modify, and distribute.
 
 📢 Notes
+
 This project simulates a real DeFi yield vault, with modular strategies, on-chain rebalancing, and full frontend integration.
 It is the third milestone in my smart contract journey after NeoGuilder (DAO/NFT system) and TokenMarket (AMM with oracle).
 
